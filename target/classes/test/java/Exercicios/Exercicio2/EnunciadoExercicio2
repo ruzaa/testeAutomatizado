@@ -1,0 +1,22 @@
+Crie uma pasta chamada Exercicio2SeuNome dentro da pasta Exercício2
+
+Verifique que você tem instalado na sua máquina os requisitos abaixo:
+Java SE (Java 9 is not yet supported by Cucumber)
+Maven - version 3.3.1 or higher -> digite mvn -version no seu terminal.
+
+http://docs.cucumber.io/guides/10-minute-tutorial/
+
+
+Você precisará criar uma BDD em Gherkin (recomendo que baixe a ferramenta TidyGherkin) para fazer seu BDD.
+
+1. Acesse o site https://the-internet.herokuapp.com/login e crie seu BDD baseado nas funcionalidades desta tela
+
+2. Crie o arquivo Exericicio2BDD.feature na pasta src > main > resources > features
+
+3. Tenha a certeza que o seu arquivo está configurado do modo certo (tem que aparecer uma imagem verde de cucumber ao lado do nome do arquivo)
+
+4. Rode o seu arquivo (caso não funcionar execute o comando mvn archetype:generate -DarchetypeGroupId=io.cucumber -DarchetypeArtifactId=cucumber-archetype -DarchetypeVersion=2.3.1.2 -DgroupId=hellocucumber -DartifactId=hellocucumber -Dpackage=hellocucumber -Dversion=1.0.0-SNAPSHOT -DinteractiveMode=false)
+
+
+Baixar maven no pc
+
